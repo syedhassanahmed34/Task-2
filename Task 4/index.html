@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance and Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Finance and Expense Tracker</h1>
+        <div class="form-container">
+            <input type="number" id="totalIncome" placeholder="Enter Total Income">
+            <button id="setIncomeBtn">Set Income</button>
+        </div>
+        <div class="form-container">
+            <input type="text" id="description" placeholder="Description">
+            <input type="number" id="amount" placeholder="Amount">
+            <button id="addExpenseBtn">Add Expense</button>
+        </div>
+        <ul id="transactionList"></ul>
+        <div class="total-container">
+            <h3>Total Balance: <span id="totalBalance">0.00</span></h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
